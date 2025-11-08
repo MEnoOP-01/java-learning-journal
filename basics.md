@@ -23,10 +23,22 @@
 - It loads and executes Java bytecode.
 - It contains JIT compiler.
 
-## **NOTES**:
+## **NOTES**(on JDK, JRE and JVM):
 1. Interpreter: In first parse, read the whole code line by line and group the instructions and then in second parse run through the grouped instructions line by line.
 2. To develop Java program - JDK is must
 3. Only to run java program - JRE is more than enough
 4. The JVM loads and executes Java bytecode. It starts by interpreting the bytecode and, for frequently executed code(block of code), uses JIT compilation to convert it to native machine code for faster execution. So the JVM does two things:
    1. Interprets bytecode initially.
    2. JIT Compiles hot code paths for performance.
+  
+##### Interview 
+- Answer:
+   - JVM is the execution engine. It runs Java bytecode and handles memory and garbage collection.
+   - JRE provides the environment required to run Java applications. It includes the JVM and core libraries.
+   - JDK provides everything needed to develop Java applications. It includes the JRE plus the compiler (javac) and development tools.
+- One-liner to close:
+   - JDK = JRE + compiler
+   - JRE = JVM + libraries
+   - JVM = runs bytecode
+---
+## Datatypes
