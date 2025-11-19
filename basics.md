@@ -492,8 +492,3 @@ while(i < 5); // BAD
 3. Be ready to explain why you would use one over the other.
 4. Nested loops: Watch out for O(n²) behavior; explain in interviews.
 5. Expect output prediction questions, e.g., nested loops, off-by-one, infinite loops.
-
----
-## String
-
- 
