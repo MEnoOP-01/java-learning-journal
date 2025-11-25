@@ -72,7 +72,7 @@
 | Faster collections | Stable hashcode improves performance in HashMaps |
 
 ### :brain: Common follow-up question:
-> :question: If Strings are immutable, how do we modify text efficiently?
+> :question: If Strings are immutable, how do we modify text efficiently? <br/>
 > For frequent modifications, Java provides `StringBuilder` (non-thread safe but fast) and `StringBuffer` (thread-safe).
 
 ---
@@ -92,7 +92,7 @@
 - `.intern()` returns the pooled reference.
 > <img width="1270" height="182" alt="image" src="https://github.com/user-attachments/assets/60a6cbf8-9680-43cc-b412-445ed3ac054e" />
 
-> Example:
+> Example to understand string pool better
 > <img width="1872" height="628" alt="image" src="https://github.com/user-attachments/assets/30f68c93-4e14-45f8-a656-1732132f3ad6" />
 > <img width="1527" height="1014" alt="image" src="https://github.com/user-attachments/assets/abee1ebf-e35e-4235-a36c-605156549df0" />
 
@@ -102,4 +102,5 @@
   - Saves memory by avoiding duplicates.
   - Improves performance due to reuse and cached hashcode. 
 
+---
 
